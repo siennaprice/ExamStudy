@@ -16,3 +16,754 @@ Invoking: Cross ARM C++ Linker
 arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK20DX128xxx5_flash.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab2/Project_Settings/Linker_Files" -Wl,-Map,"Lab1.map" -specs=nano.specs -specs=nosys.specs -o "Lab1.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK20D5.o ./Project_Settings/Startup_Code/system_MK20D5.o   
 Finished building target: Lab1.elf
  
+04:51:38 **** Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/startup.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+Finished building: ../Project_Settings/Startup_Code/startup.c
+ 
+Building file: ../Generated_Code/AS1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/AS1.d" -MT"Generated_Code/AS1.o" -c -o "Generated_Code/AS1.o" "../Generated_Code/AS1.c"
+Finished building: ../Generated_Code/AS1.c
+ 
+Building file: ../Generated_Code/ASerialLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+Finished building: ../Generated_Code/ASerialLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
+Finished building: ../Generated_Code/BitIoLdd1.c
+ 
+Building file: ../Generated_Code/BitIoLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
+Finished building: ../Generated_Code/BitIoLdd2.c
+ 
+Building file: ../Generated_Code/BitIoLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd3.d" -MT"Generated_Code/BitIoLdd3.o" -c -o "Generated_Code/BitIoLdd3.o" "../Generated_Code/BitIoLdd3.c"
+Finished building: ../Generated_Code/BitIoLdd3.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building file: ../Generated_Code/blueLED.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/blueLED.d" -MT"Generated_Code/blueLED.o" -c -o "Generated_Code/blueLED.o" "../Generated_Code/blueLED.c"
+Finished building: ../Generated_Code/blueLED.c
+ 
+Building file: ../Generated_Code/greenLED.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/greenLED.d" -MT"Generated_Code/greenLED.o" -c -o "Generated_Code/greenLED.o" "../Generated_Code/greenLED.c"
+Finished building: ../Generated_Code/greenLED.c
+ 
+Building file: ../Generated_Code/redLED.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/redLED.d" -MT"Generated_Code/redLED.o" -c -o "Generated_Code/redLED.o" "../Generated_Code/redLED.c"
+Finished building: ../Generated_Code/redLED.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+06:47:57 **** Incremental Build of configuration Debug for project Lab2 ****
+make all 
+make: Nothing to be done for 'all'.
+06:47:57 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:66:5: error: expected expression before ':' token
+ for(::) {
+     ^
+../Sources/main.c:66:7: error: expected expression before ')' token
+ for(::) {
+       ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+06:50:17 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:66:5: error: expected expression before ':' token
+ for(::){
+     ^
+../Sources/main.c:66:7: error: expected expression before ')' token
+ for(::){
+       ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+06:50:46 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:66:5: error: expected expression before ':' token
+ for(::){
+     ^
+../Sources/main.c:66:7: error: expected expression before ')' token
+ for(::){
+       ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+06:51:28 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+06:52:30 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+06:53:53 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+06:56:46 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+07:14:18 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:64:7: error: 'i' undeclared (first use in this function)
+  for (i = 0; i < len; i++){
+       ^
+../Sources/main.c:64:7: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/main.c:68:4: error: 'err' undeclared (first use in this function)
+    err = AS1_SendChar(str[i]);
+    ^
+../Sources/main.c:68:23: error: 'str' undeclared (first use in this function)
+    err = AS1_SendChar(str[i]);
+                       ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:14:50 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:70:4: error: 'err' undeclared (first use in this function)
+    err = AS1_SendChar(string[i]);
+    ^
+../Sources/main.c:70:4: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:15:18 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+07:15:22 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+07:16:14 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+07:16:17 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+07:18:55 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:8: error: 'string' redeclared as different kind of symbol
+  char *string;
+        ^
+../Sources/main.c:62:24: note: previous definition of 'string' was here
+ void send_string(char *string)
+                        ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:19:41 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:8: error: 'string' redeclared as different kind of symbol
+  char *string;
+        ^
+../Sources/main.c:62:24: note: previous definition of 'string' was here
+ void send_string(char *string)
+                        ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:20:11 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+07:20:17 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+07:20:58 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+07:21:01 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+07:23:42 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:91:1: warning: 'return' with no value, in function returning non-void [enabled by default]
+ return;
+ ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+07:34:44 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:93:9: error: 'err' undeclared (first use in this function)
+  while (err != ERR_OK){
+         ^
+../Sources/main.c:93:9: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:35:28 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/BitIoLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd1.d" -MT"Generated_Code/BitIoLdd1.o" -c -o "Generated_Code/BitIoLdd1.o" "../Generated_Code/BitIoLdd1.c"
+Finished building: ../Generated_Code/BitIoLdd1.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building file: ../Generated_Code/redLED.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/redLED.d" -MT"Generated_Code/redLED.o" -c -o "Generated_Code/redLED.o" "../Generated_Code/redLED.c"
+Finished building: ../Generated_Code/redLED.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+07:36:13 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:103:3: error: expected expression before '}' token
+   }
+   ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:38:47 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:111:3: error: expected ';' before '}' token
+   }
+   ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:39:27 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:111:3: error: expected ';' before '}' token
+   }
+   ^
+../Sources/main.c:123:1: error: expected declaration or statement at end of input
+ } /*** End of main routine. DO NOT MODIFY THIS TEXT!!! ***/
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:40:09 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:111:3: error: expected ';' before '}' token
+   }
+   ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:40:25 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/BitIoLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd2.d" -MT"Generated_Code/BitIoLdd2.o" -c -o "Generated_Code/BitIoLdd2.o" "../Generated_Code/BitIoLdd2.c"
+Finished building: ../Generated_Code/BitIoLdd2.c
+ 
+Building file: ../Generated_Code/BitIoLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/BitIoLdd3.d" -MT"Generated_Code/BitIoLdd3.o" -c -o "Generated_Code/BitIoLdd3.o" "../Generated_Code/BitIoLdd3.c"
+Finished building: ../Generated_Code/BitIoLdd3.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building file: ../Generated_Code/blueLED.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/blueLED.d" -MT"Generated_Code/blueLED.o" -c -o "Generated_Code/blueLED.o" "../Generated_Code/blueLED.c"
+Finished building: ../Generated_Code/blueLED.c
+ 
+Building file: ../Generated_Code/greenLED.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/greenLED.d" -MT"Generated_Code/greenLED.o" -c -o "Generated_Code/greenLED.o" "../Generated_Code/greenLED.c"
+Finished building: ../Generated_Code/greenLED.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+07:40:29 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+07:41:28 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+07:42:19 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+07:46:18 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:124:3: error: expected identifier or '(' before 'for'
+   for(;;){}
+   ^
+../Sources/main.c:124:9: error: expected identifier or '(' before ')' token
+   for(;;){}
+         ^
+../Sources/main.c:126:1: error: expected identifier or '(' before '}' token
+ } /*** End of main routine. DO NOT MODIFY THIS TEXT!!! ***/
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:46:24 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:124:3: error: expected identifier or '(' before 'for'
+   for(;;){}
+   ^
+../Sources/main.c:124:9: error: expected identifier or '(' before ')' token
+   for(;;){}
+         ^
+../Sources/main.c:126:1: error: expected identifier or '(' before '}' token
+ } /*** End of main routine. DO NOT MODIFY THIS TEXT!!! ***/
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+07:46:37 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+07:59:25 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+08:01:06 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+08:02:52 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+08:32:23 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:57:7: error: 'i' undeclared (first use in this function)
+  for (i = 0; i < len; i++) {
+       ^
+../Sources/main.c:57:7: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/main.c:60:4: error: 'err' undeclared (first use in this function)
+    err = AS1_SendChar(str[i]);
+    ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+08:32:26 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:57:7: error: 'i' undeclared (first use in this function)
+  for (i = 0; i < len; i++) {
+       ^
+../Sources/main.c:57:7: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/main.c:60:4: error: 'err' undeclared (first use in this function)
+    err = AS1_SendChar(str[i]);
+    ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+08:32:34 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:57:7: error: 'i' undeclared (first use in this function)
+  for (i = 0; i < len; i++) {
+       ^
+../Sources/main.c:57:7: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/main.c:60:4: error: 'err' undeclared (first use in this function)
+    err = AS1_SendChar(str[i]);
+    ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+08:33:27 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:61:4: error: 'err' undeclared (first use in this function)
+    err = AS1_SendChar(str[i]);
+    ^
+../Sources/main.c:61:4: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+08:33:30 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:61:4: error: 'err' undeclared (first use in this function)
+    err = AS1_SendChar(str[i]);
+    ^
+../Sources/main.c:61:4: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+08:34:34 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+08:34:38 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+08:36:50 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:86:4: error: expected ';' before 'do'
+    do {
+    ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+08:36:56 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:86:4: error: expected ';' before 'do'
+    do {
+    ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+08:37:05 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+08:37:08 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+08:38:49 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:87:25: error: 'c' undeclared (first use in this function)
+     err = AS1_RecvChar(&c);
+                         ^
+../Sources/main.c:87:25: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+08:39:34 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:87:25: error: 'c' undeclared (first use in this function)
+     err = AS1_RecvChar(&c);
+                         ^
+../Sources/main.c:87:25: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+08:39:52 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+08:42:56 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+08:44:35 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+08:44:38 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+make: Nothing to be done for 'all'.
+08:49:47 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+08:52:23 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+08:58:56 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 
+09:01:53 **** Incremental Build of configuration Debug for project Lab4-SerialComms ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab4-SerialComms.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab4-SerialComms/Project_Settings/Linker_Files" -Wl,-Map,"Lab4-SerialComms.map" -specs=nano.specs -specs=nosys.specs -o "Lab4-SerialComms.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/BitIoLdd3.o ./Generated_Code/Cpu.o ./Generated_Code/PE_LDD.o ./Generated_Code/Vectors.o ./Generated_Code/blueLED.o ./Generated_Code/greenLED.o ./Generated_Code/redLED.o   
+Finished building target: Lab4-SerialComms.elf
+ 

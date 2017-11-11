@@ -1,15 +1,6 @@
-04:11:54 **** Incremental Build of configuration Debug for project Lab2 ****
+06:47:57 **** Incremental Build of configuration Debug for project Lab2 ****
 make all 
-Building file: ../Sources/main.c
-Invoking: Cross ARM C Compiler
-arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"../Sources" -I"../Includes" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
-Finished building: ../Sources/main.c
- 
-Building target: Lab1.elf
-Invoking: Cross ARM C++ Linker
-arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "MK20DX128xxx5_flash.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab2/Project_Settings/Linker_Files" -Wl,-Map,"Lab1.map" -specs=nano.specs -specs=nosys.specs -o "Lab1.elf"  ./Sources/main.o  ./Project_Settings/Startup_Code/startup_MK20D5.o ./Project_Settings/Startup_Code/system_MK20D5.o   
-Finished building target: Lab1.elf
- 
+make: Nothing to be done for 'all'.
 
-04:11:54 Build Finished (took 646ms)
+06:47:57 Build Finished (took 146ms)
 
