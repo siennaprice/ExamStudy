@@ -2016,3 +2016,1322 @@ make: Nothing to be done for 'all'.
 20:52:40 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
 make all 
 make: Nothing to be done for 'all'.
+21:45:01 **** Build of configuration Debug for project Lab7-UserInterfaceCombinedwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/startup.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+Finished building: ../Project_Settings/Startup_Code/startup.c
+ 
+Building file: ../Generated_Code/ASerialLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+Finished building: ../Generated_Code/ASerialLdd1.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/PwmLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+Finished building: ../Generated_Code/PwmLdd1.c
+ 
+Building file: ../Generated_Code/PwmLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+Finished building: ../Generated_Code/PwmLdd2.c
+ 
+Building file: ../Generated_Code/PwmLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+Finished building: ../Generated_Code/PwmLdd3.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building file: ../Generated_Code/Term1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+Finished building: ../Generated_Code/Term1.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building target: Lab7-UserInterfaceCombinedwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfaceCombinedwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfaceCombinedwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfaceCombinedwithPWM.elf
+ 
+21:51:07 **** Build of configuration Debug for project Lab7-UserInterfaceCombinedwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Term1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+Finished building: ../Generated_Code/Term1.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building target: Lab7-UserInterfaceCombinedwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfaceCombinedwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfaceCombinedwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfaceCombinedwithPWM.elf
+ 
+22:22:17 **** Build of configuration Debug for project Lab7-UserInterfaceCombinedwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c:85:30: warning: 'buf_index' initialized and declared 'extern' [enabled by default]
+ extern volatile unsigned int buf_index = 0;
+                              ^
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:92:1: error: expected expression before '}' token
+ }
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+22:33:30 **** Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/startup.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+Finished building: ../Project_Settings/Startup_Code/startup.c
+ 
+Building file: ../Generated_Code/ASerialLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+Finished building: ../Generated_Code/ASerialLdd1.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/PwmLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+Finished building: ../Generated_Code/PwmLdd1.c
+ 
+Building file: ../Generated_Code/PwmLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+Finished building: ../Generated_Code/PwmLdd2.c
+ 
+Building file: ../Generated_Code/PwmLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+Finished building: ../Generated_Code/PwmLdd3.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building file: ../Generated_Code/Term1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+Finished building: ../Generated_Code/Term1.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+01:02:37 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+01:03:36 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+01:06:30 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+01:18:24 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+01:20:55 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:95:19: error: 'c' undeclared (first use in this function)
+    Term1_ReadChar(c);
+                   ^
+../Sources/main.c:95:19: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+01:27:32 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:190:1: error: expected declaration or statement at end of input
+ }
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+01:27:37 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:190:1: error: expected declaration or statement at end of input
+ }
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+01:27:42 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:190:1: error: expected declaration or statement at end of input
+ }
+ ^
+make: *** [Sources/Events.o] Error 1
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+01:27:56 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:190:1: error: expected declaration or statement at end of input
+ }
+ ^
+make: *** [Sources/Events.o] Error 1
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+01:51:29 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:190:1: error: expected declaration or statement at end of input
+ }
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+01:56:12 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:190:1: error: expected declaration or statement at end of input
+ }
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+01:56:50 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:79:3: warning: implicit declaration of function 'AS1_RecvChar' [-Wimplicit-function-declaration]
+   if (ERR_OK == AS1_RecvChar(&c)) {
+   ^
+../Sources/Events.c:83:1: error: expected declaration or statement at end of input
+ }
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+01:57:16 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:79:3: warning: implicit declaration of function 'AS1_RecvChar' [-Wimplicit-function-declaration]
+   if (ERR_OK == AS1_RecvChar(&c)) {
+   ^
+../Sources/Events.c:83:1: error: expected declaration or statement at end of input
+ }
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+01:59:13 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:79:3: warning: implicit declaration of function 'AS1_RecvChar' [-Wimplicit-function-declaration]
+   if (ERR_OK == AS1_RecvChar(&c)) {
+   ^
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:95:19: error: 'c' undeclared (first use in this function)
+    Term1_ReadChar(c);
+                   ^
+../Sources/main.c:95:19: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+02:02:26 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:81:3: error: too few arguments to function 'Term1_ReadChar'
+   Term1_ReadChar();
+   ^
+In file included from ../Sources/Events.h:43:0,
+                 from ../Sources/Events.c:30:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code/Term1.h:110:6: note: declared here
+ void Term1_ReadChar(char_t *c);
+      ^
+../Sources/Events.c:82:3: error: too few arguments to function 'Term1_SendChar'
+   Term1_SendChar();
+   ^
+In file included from ../Sources/Events.h:43:0,
+                 from ../Sources/Events.c:30:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code/Term1.h:97:6: note: declared here
+ void Term1_SendChar(char_t Val);
+      ^
+../Sources/Events.c: At top level:
+../Sources/Events.c:84:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+02:03:03 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:81:3: warning: passing argument 1 of 'Term1_ReadChar' makes pointer from integer without a cast [enabled by default]
+   Term1_ReadChar(c);
+   ^
+In file included from ../Sources/Events.h:43:0,
+                 from ../Sources/Events.c:30:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code/Term1.h:110:6: note: expected 'char_t *' but argument is of type 'char'
+ void Term1_ReadChar(char_t *c);
+      ^
+../Sources/Events.c: At top level:
+../Sources/Events.c:84:1: error: expected identifier or '(' before '}' token
+ }
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+02:03:25 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:81:3: warning: passing argument 1 of 'Term1_ReadChar' makes pointer from integer without a cast [enabled by default]
+   Term1_ReadChar(c);
+   ^
+In file included from ../Sources/Events.h:43:0,
+                 from ../Sources/Events.c:30:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code/Term1.h:110:6: note: expected 'char_t *' but argument is of type 'char'
+ void Term1_ReadChar(char_t *c);
+      ^
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:95:19: error: 'c' undeclared (first use in this function)
+    Term1_ReadChar(c);
+                   ^
+../Sources/main.c:95:19: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+02:04:22 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:81:3: warning: passing argument 1 of 'Term1_ReadChar' makes pointer from integer without a cast [enabled by default]
+   Term1_ReadChar(c);
+   ^
+In file included from ../Sources/Events.h:43:0,
+                 from ../Sources/Events.c:30:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code/Term1.h:110:6: note: expected 'char_t *' but argument is of type 'char'
+ void Term1_ReadChar(char_t *c);
+      ^
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/ASerialLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+Finished building: ../Generated_Code/ASerialLdd1.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/PwmLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+Finished building: ../Generated_Code/PwmLdd1.c
+ 
+Building file: ../Generated_Code/PwmLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+Finished building: ../Generated_Code/PwmLdd2.c
+ 
+Building file: ../Generated_Code/PwmLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+Finished building: ../Generated_Code/PwmLdd3.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building file: ../Generated_Code/Term1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+Finished building: ../Generated_Code/Term1.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:06:12 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:16:49 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:99:4: warning: implicit declaration of function 'Term1_ReadLine' [-Wimplicit-function-declaration]
+    Term1_ReadLine(&buffer);
+    ^
+../Sources/main.c:100:6: warning: implicit declaration of function 'sscanf' [-Wimplicit-function-declaration]
+      sscanf(buffer,"blue %i",&blueBright);
+      ^
+../Sources/main.c:100:6: warning: incompatible implicit declaration of built-in function 'sscanf' [enabled by default]
+../Sources/main.c:101:6: warning: implicit declaration of function 'BlueLED_SetRatio8' [-Wimplicit-function-declaration]
+      BlueLED_SetRatio8(blueBright);
+      ^
+../Sources/main.c:104:6: warning: implicit declaration of function 'RedLED_SetRatio8' [-Wimplicit-function-declaration]
+      RedLED_SetRatio8(redBright);
+      ^
+../Sources/main.c:107:6: warning: implicit declaration of function 'GreenLED_SetRatio8' [-Wimplicit-function-declaration]
+      GreenLED_SetRatio8(greenBright);
+      ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+./Sources/main.o: In function `main':
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UIwithPWM\Debug/../Sources/main.c:99: undefined reference to `Term1_ReadLine'
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UIwithPWM\Debug/../Sources/main.c:101: undefined reference to `BlueLED_SetRatio8'
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UIwithPWM\Debug/../Sources/main.c:104: undefined reference to `RedLED_SetRatio8'
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UIwithPWM\Debug/../Sources/main.c:107: undefined reference to `GreenLED_SetRatio8'
+collect2.exe: error: ld returned 1 exit status
+makefile:53: recipe for target 'Lab7-UIwithPWM.elf' failed
+make: *** [Lab7-UIwithPWM.elf] Error 1
+02:18:08 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:100:6: warning: implicit declaration of function 'sscanf' [-Wimplicit-function-declaration]
+      sscanf(buffer,"blue %i",&blueBright);
+      ^
+../Sources/main.c:100:6: warning: incompatible implicit declaration of built-in function 'sscanf' [enabled by default]
+../Sources/main.c:101:6: warning: implicit declaration of function 'Blue_SetRatio8' [-Wimplicit-function-declaration]
+      Blue_SetRatio8(blueBright);
+      ^
+../Sources/main.c:104:6: warning: implicit declaration of function 'Red_SetRatio8' [-Wimplicit-function-declaration]
+      Red_SetRatio8(redBright);
+      ^
+../Sources/main.c:107:6: warning: implicit declaration of function 'Green_SetRatio8' [-Wimplicit-function-declaration]
+      Green_SetRatio8(greenBright);
+      ^
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Term1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+Finished building: ../Generated_Code/Term1.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+./Sources/main.o: In function `main':
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UIwithPWM\Debug/../Sources/main.c:101: undefined reference to `Blue_SetRatio8'
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UIwithPWM\Debug/../Sources/main.c:104: undefined reference to `Red_SetRatio8'
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UIwithPWM\Debug/../Sources/main.c:107: undefined reference to `Green_SetRatio8'
+collect2.exe: error: ld returned 1 exit status
+makefile:53: recipe for target 'Lab7-UIwithPWM.elf' failed
+make: *** [Lab7-UIwithPWM.elf] Error 1
+02:19:00 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:100:6: warning: implicit declaration of function 'sscanf' [-Wimplicit-function-declaration]
+      sscanf(buffer,"blue %i",&blueBright);
+      ^
+../Sources/main.c:100:6: warning: incompatible implicit declaration of built-in function 'sscanf' [enabled by default]
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/PwmLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+Finished building: ../Generated_Code/PwmLdd1.c
+ 
+Building file: ../Generated_Code/PwmLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+Finished building: ../Generated_Code/PwmLdd2.c
+ 
+Building file: ../Generated_Code/PwmLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+Finished building: ../Generated_Code/PwmLdd3.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:19:09 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+make: Nothing to be done for 'all'.
+02:21:24 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:100:6: warning: implicit declaration of function 'sscanf' [-Wimplicit-function-declaration]
+      sscanf(buffer,"blue %i",&blueBright);
+      ^
+../Sources/main.c:100:6: warning: incompatible implicit declaration of built-in function 'sscanf' [enabled by default]
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:26:06 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:100:6: warning: implicit declaration of function 'sscanf' [-Wimplicit-function-declaration]
+      sscanf(buffer,"blue %i",&blueBright);
+      ^
+../Sources/main.c:100:6: warning: incompatible implicit declaration of built-in function 'sscanf' [enabled by default]
+../Sources/main.c:127:6: warning: 'return' with no value, in function returning non-void [enabled by default]
+      return;
+      ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:29:43 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:100:6: warning: implicit declaration of function 'sscanf' [-Wimplicit-function-declaration]
+      sscanf(buffer,"blue %u",&blueBright);
+      ^
+../Sources/main.c:100:6: warning: incompatible implicit declaration of built-in function 'sscanf' [enabled by default]
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:32:56 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:35:03 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:54:21: error: conflicting type qualifiers for 'buffer'
+ extern unsigned int buffer;
+                     ^
+../Sources/main.c:53:22: note: previous declaration of 'buffer' was here
+ extern volatile char buffer;
+                      ^
+../Sources/main.c: In function 'main':
+../Sources/main.c:105:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"blue %i",&blueBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'unsigned int'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:108:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"red %i",&redBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'unsigned int'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:111:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"green %i",&greenBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'unsigned int'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+02:35:17 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:104:4: warning: passing argument 1 of 'Term1_ReadLine' discards 'volatile' qualifier from pointer target type [enabled by default]
+    Term1_ReadLine(&buffer);
+    ^
+In file included from ../Sources/Events.h:43:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code/Term1.h:98:6: note: expected 'void *' but argument is of type 'volatile char *'
+ void Term1_ReadLine(void *str);
+      ^
+../Sources/main.c:105:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"blue %i",&blueBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:108:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"red %i",&redBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:111:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"green %i",&greenBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:38:44 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:104:4: warning: passing argument 1 of 'Term1_ReadLine' discards 'volatile' qualifier from pointer target type [enabled by default]
+    Term1_ReadLine(&buffer);
+    ^
+In file included from ../Sources/Events.h:43:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code/Term1.h:98:6: note: expected 'void *' but argument is of type 'volatile char *'
+ void Term1_ReadLine(void *str);
+      ^
+../Sources/main.c:105:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"blue %u",&blueBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:108:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"red %u",&redBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:111:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"green %u",&greenBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:40:12 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:41:48 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:105:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"blue %u",&blueBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:108:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"red %u",&redBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:111:6: warning: passing argument 1 of 'sscanf' makes pointer from integer without a cast [enabled by default]
+      sscanf(buffer,"green %u",&greenBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:44:38 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:79:17: warning: assignment makes pointer from integer without a cast [enabled by default]
+   buffer[index] = c; // save the character
+                 ^
+Finished building: ../Sources/Events.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:52:06 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:54:06 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+02:56:29 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:01:10 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:105:6: warning: passing argument 1 of 'sscanf' from incompatible pointer type [enabled by default]
+      sscanf(&buffer,"blue %hhu",&blueBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char (*)[100]'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:108:6: warning: passing argument 1 of 'sscanf' from incompatible pointer type [enabled by default]
+      sscanf(&buffer,"red %hhu",&redBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char (*)[100]'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:111:6: warning: passing argument 1 of 'sscanf' from incompatible pointer type [enabled by default]
+      sscanf(&buffer,"green %hhu",&greenBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char (*)[100]'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:04:32 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:105:6: warning: passing argument 1 of 'sscanf' from incompatible pointer type [enabled by default]
+      sscanf(&buffer,"blue %hhu",&blueBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char (*)[100]'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:108:6: warning: passing argument 1 of 'sscanf' from incompatible pointer type [enabled by default]
+      sscanf(&buffer,"red %hhu",&redBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char (*)[100]'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:111:6: warning: passing argument 1 of 'sscanf' from incompatible pointer type [enabled by default]
+      sscanf(&buffer,"green %hhu",&greenBright);
+      ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:49:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'char (*)[100]'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:05:59 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:08:06 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:105:4: error: too few arguments to function 'Term1_ReadLine'
+    Term1_ReadLine();
+    ^
+In file included from ../Sources/Events.h:43:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code/Term1.h:98:6: note: declared here
+ void Term1_ReadLine(void *str);
+      ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+03:08:20 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:105:4: warning: passing argument 1 of 'Term1_ReadLine' makes pointer from integer without a cast [enabled by default]
+    Term1_ReadLine(*buffer);
+    ^
+In file included from ../Sources/Events.h:43:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code/Term1.h:98:6: note: expected 'void *' but argument is of type 'char'
+ void Term1_ReadLine(void *str);
+      ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:08:55 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:15:36 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:79:19: error: 'c' undeclared (first use in this function)
+   Term1_ReadChar(&c);
+                   ^
+../Sources/Events.c:79:19: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+03:16:00 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:19:08 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:21:09 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:22:02 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:23:42 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:82:19: error: invalid type argument of unary '*' (have 'int')
+   buffer[index] = *c;
+                   ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+03:23:54 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:82:17: warning: assignment makes integer from pointer without a cast [enabled by default]
+   buffer[index] = &c;
+                 ^
+Finished building: ../Sources/Events.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:26:34 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+03:29:12 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 

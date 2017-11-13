@@ -1,0 +1,15 @@
+03:29:12 **** Incremental Build of configuration Debug for project Lab7-UIwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building target: Lab7-UIwithPWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UIwithPWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UIwithPWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UIwithPWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UIwithPWM.elf
+ 
+
+03:29:13 Build Finished (took 745ms)
+

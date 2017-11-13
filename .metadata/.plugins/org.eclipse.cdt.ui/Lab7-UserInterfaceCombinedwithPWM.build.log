@@ -1,0 +1,17 @@
+22:22:17 **** Build of configuration Debug for project Lab7-UserInterfaceCombinedwithPWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfaceCombinedwithPWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c:85:30: warning: 'buf_index' initialized and declared 'extern' [enabled by default]
+ extern volatile unsigned int buf_index = 0;
+                              ^
+../Sources/Events.c: In function 'Inhr1_OnRxChar':
+../Sources/Events.c:92:1: error: expected expression before '}' token
+ }
+ ^
+Sources/subdir.mk:21: recipe for target 'Sources/Events.o' failed
+make: *** [Sources/Events.o] Error 1
+
+22:22:18 Build Finished (took 404ms)
+
