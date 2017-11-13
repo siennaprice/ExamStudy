@@ -1024,3 +1024,995 @@ Invoking: Cross ARM C++ Linker
 arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab6-PWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab6-PWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab6-PWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab6-PWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/AS1.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Vectors.o   
 Finished building target: Lab6-PWM.elf
  
+17:28:00 **** Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Project_Settings/Startup_Code/startup.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Project_Settings/Startup_Code/startup.d" -MT"Project_Settings/Startup_Code/startup.o" -c -o "Project_Settings/Startup_Code/startup.o" "../Project_Settings/Startup_Code/startup.c"
+Finished building: ../Project_Settings/Startup_Code/startup.c
+ 
+Building file: ../Generated_Code/ASerialLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+Finished building: ../Generated_Code/ASerialLdd1.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/PwmLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+Finished building: ../Generated_Code/PwmLdd1.c
+ 
+Building file: ../Generated_Code/PwmLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+Finished building: ../Generated_Code/PwmLdd2.c
+ 
+Building file: ../Generated_Code/PwmLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+Finished building: ../Generated_Code/PwmLdd3.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/TU1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/TU1.d" -MT"Generated_Code/TU1.o" -c -o "Generated_Code/TU1.o" "../Generated_Code/TU1.c"
+Finished building: ../Generated_Code/TU1.c
+ 
+Building file: ../Generated_Code/Term1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+Finished building: ../Generated_Code/Term1.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+17:32:11 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:34 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:72:3: error: too few arguments to function 'Term1_SetColor'
+   Term1_SetColor(clCyan);
+   ^
+In file included from ../Sources/Events.h:36:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code/Term1.h:199:6: note: declared here
+ void Term1_SetColor(uint8_t foreground,uint8_t background);
+      ^
+../Sources/main.c:76:3: error: too few arguments to function 'Term1_SetColor'
+   Term1_SetColor(clCyan);
+   ^
+In file included from ../Sources/Events.h:36:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code/Term1.h:199:6: note: declared here
+ void Term1_SetColor(uint8_t foreground,uint8_t background);
+      ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+17:44:45 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:72:3: error: too few arguments to function 'Term1_SetColor'
+   Term1_SetColor(clCyan);
+   ^
+In file included from ../Sources/Events.h:36:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code/Term1.h:199:6: note: declared here
+ void Term1_SetColor(uint8_t foreground,uint8_t background);
+      ^
+../Sources/main.c:76:3: error: too few arguments to function 'Term1_SetColor'
+   Term1_SetColor(clCyan);
+   ^
+In file included from ../Sources/Events.h:36:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code/Term1.h:199:6: note: declared here
+ void Term1_SetColor(uint8_t foreground,uint8_t background);
+      ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+17:45:09 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/ASerialLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ASerialLdd1.d" -MT"Generated_Code/ASerialLdd1.o" -c -o "Generated_Code/ASerialLdd1.o" "../Generated_Code/ASerialLdd1.c"
+Finished building: ../Generated_Code/ASerialLdd1.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Term1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+Finished building: ../Generated_Code/Term1.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+17:45:13 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+17:45:50 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+17:46:43 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:06:08 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:07:55 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:08:26 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+18:08:32 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+18:09:40 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:10:16 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+18:11:15 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:11:58 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:13:11 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:13:28 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+18:14:03 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+18:14:12 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+18:15:02 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+18:21:23 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:22:00 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:23:43 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:24:28 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:47:16 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/Term1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Term1.d" -MT"Generated_Code/Term1.o" -c -o "Generated_Code/Term1.o" "../Generated_Code/Term1.c"
+Finished building: ../Generated_Code/Term1.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+18:52:35 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+19:56:26 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:107:1: warning: implicit declaration of function 'Blue_SetRatio8' [-Wimplicit-function-declaration]
+ Blue_SetRatio8(bBright);
+ ^
+../Sources/main.c:110:1: warning: implicit declaration of function 'Red_SetRatio8' [-Wimplicit-function-declaration]
+ Red_SetRatio8(rBright);
+ ^
+../Sources/main.c:113:1: warning: implicit declaration of function 'Green_SetRatio8' [-Wimplicit-function-declaration]
+ Green_SetRatio8(gBright);
+ ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+./Sources/main.o: In function `main':
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:107: undefined reference to `Blue_SetRatio8'
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:110: undefined reference to `Red_SetRatio8'
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:113: undefined reference to `Green_SetRatio8'
+collect2.exe: error: ld returned 1 exit status
+makefile:53: recipe for target 'Lab7-UserInterfacePWM.elf' failed
+make: *** [Lab7-UserInterfacePWM.elf] Error 1
+20:02:55 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:107:2: warning: implicit declaration of function 'Blue_SetRatio8' [-Wimplicit-function-declaration]
+  Blue_SetRatio8(bBright);
+  ^
+../Sources/main.c:112:2: warning: implicit declaration of function 'Red_SetRatio8' [-Wimplicit-function-declaration]
+  Red_SetRatio8(rBright);
+  ^
+../Sources/main.c:117:2: warning: implicit declaration of function 'Green_SetRatio8' [-Wimplicit-function-declaration]
+  Green_SetRatio8(gBright);
+  ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+./Sources/main.o: In function `main':
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:107: undefined reference to `Blue_SetRatio8'
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:112: undefined reference to `Red_SetRatio8'
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:117: undefined reference to `Green_SetRatio8'
+collect2.exe: error: ld returned 1 exit status
+makefile:53: recipe for target 'Lab7-UserInterfacePWM.elf' failed
+make: *** [Lab7-UserInterfacePWM.elf] Error 1
+20:05:31 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building file: ../Generated_Code/Blue.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Blue.d" -MT"Generated_Code/Blue.o" -c -o "Generated_Code/Blue.o" "../Generated_Code/Blue.c"
+Finished building: ../Generated_Code/Blue.c
+ 
+Building file: ../Generated_Code/Cpu.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+Finished building: ../Generated_Code/Cpu.c
+ 
+Building file: ../Generated_Code/Green.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Green.d" -MT"Generated_Code/Green.o" -c -o "Generated_Code/Green.o" "../Generated_Code/Green.c"
+Finished building: ../Generated_Code/Green.c
+ 
+Building file: ../Generated_Code/Inhr1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Inhr1.d" -MT"Generated_Code/Inhr1.o" -c -o "Generated_Code/Inhr1.o" "../Generated_Code/Inhr1.c"
+Finished building: ../Generated_Code/Inhr1.c
+ 
+Building file: ../Generated_Code/PE_LDD.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+Finished building: ../Generated_Code/PE_LDD.c
+ 
+Building file: ../Generated_Code/PwmLdd1.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd1.d" -MT"Generated_Code/PwmLdd1.o" -c -o "Generated_Code/PwmLdd1.o" "../Generated_Code/PwmLdd1.c"
+Finished building: ../Generated_Code/PwmLdd1.c
+ 
+Building file: ../Generated_Code/PwmLdd2.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd2.d" -MT"Generated_Code/PwmLdd2.o" -c -o "Generated_Code/PwmLdd2.o" "../Generated_Code/PwmLdd2.c"
+Finished building: ../Generated_Code/PwmLdd2.c
+ 
+Building file: ../Generated_Code/PwmLdd3.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PwmLdd3.d" -MT"Generated_Code/PwmLdd3.o" -c -o "Generated_Code/PwmLdd3.o" "../Generated_Code/PwmLdd3.c"
+Finished building: ../Generated_Code/PwmLdd3.c
+ 
+Building file: ../Generated_Code/Red.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Red.d" -MT"Generated_Code/Red.o" -c -o "Generated_Code/Red.o" "../Generated_Code/Red.c"
+Finished building: ../Generated_Code/Red.c
+ 
+Building file: ../Generated_Code/Vectors.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+Finished building: ../Generated_Code/Vectors.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:07:13 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:09:07 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:13:11 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:104:2: error: 'txt' undeclared (first use in this function)
+  txt = Term1_ReadLine(&buffer);
+  ^
+../Sources/main.c:104:2: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Sources/main.o] Error 1
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+20:14:34 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:107:6: error: void value not ignored as it ought to be
+  txt = Term1_ReadLine(&buffer);
+      ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+20:15:00 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:15:38 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:15:48 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+20:16:17 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:16:21 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+20:21:33 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:125:2: error: too few arguments to function 'sprintf'
+  sprintf(buffer);
+  ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+20:23:25 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:24:19 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:05 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:30:09 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+20:30:34 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:31:43 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+20:34:18 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:56:21: error: 'i' undeclared here (not in a function)
+  static char buffer[i];
+                     ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+20:34:38 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:56:21: error: expected expression before 'int'
+  static char buffer[int i];
+                     ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:19: error: 'buffer' undeclared (first use in this function)
+    Term1_SendChar(buffer[i]);
+                   ^
+../Sources/main.c:66:19: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+20:36:09 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:56:18: warning: type defaults to 'int' in declaration of 'buffer' [enabled by default]
+  extern volatile buffer;
+                  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:25: error: subscripted value is neither array nor pointer nor vector
+    Term1_SendChar(buffer[i]);
+                         ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+20:36:56 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:56:18: warning: type defaults to 'int' in declaration of 'buffer' [enabled by default]
+  extern volatile buffer;
+                  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:4: error: 'q' undeclared (first use in this function)
+    q = buffer[i];
+    ^
+../Sources/main.c:66:4: note: each undeclared identifier is reported only once for each function it appears in
+../Sources/main.c:66:14: error: subscripted value is neither array nor pointer nor vector
+    q = buffer[i];
+              ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+20:37:14 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:56:18: warning: type defaults to 'int' in declaration of 'buffer' [enabled by default]
+  extern volatile buffer;
+                  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:66:4: error: 'q' undeclared (first use in this function)
+    q = buffer;
+    ^
+../Sources/main.c:66:4: note: each undeclared identifier is reported only once for each function it appears in
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+20:37:26 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:56:18: warning: type defaults to 'int' in declaration of 'buffer' [enabled by default]
+  extern volatile buffer;
+                  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:67:4: warning: passing argument 1 of 'Term1_SendChar' makes integer from pointer without a cast [enabled by default]
+    Term1_SendChar(&q);
+    ^
+In file included from ../Sources/Events.h:36:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code/Term1.h:113:6: note: expected 'char_t' but argument is of type 'char *'
+ void Term1_SendChar(char_t Val);
+      ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+./Sources/main.o: In function `send_string':
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:69: undefined reference to `buffer'
+collect2.exe: error: ld returned 1 exit status
+makefile:53: recipe for target 'Lab7-UserInterfacePWM.elf' failed
+make: *** [Lab7-UserInterfacePWM.elf] Error 1
+20:37:36 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:56:18: warning: type defaults to 'int' in declaration of 'buffer' [enabled by default]
+  extern volatile buffer;
+                  ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+./Sources/main.o: In function `send_string':
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:69: undefined reference to `buffer'
+collect2.exe: error: ld returned 1 exit status
+makefile:53: recipe for target 'Lab7-UserInterfacePWM.elf' failed
+make: *** [Lab7-UserInterfacePWM.elf] Error 1
+20:38:11 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+./Sources/main.o: In function `send_string':
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:69: undefined reference to `buffer'
+collect2.exe: error: ld returned 1 exit status
+makefile:53: recipe for target 'Lab7-UserInterfacePWM.elf' failed
+make: *** [Lab7-UserInterfacePWM.elf] Error 1
+20:41:18 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c:56:18: warning: type defaults to 'int' in declaration of 'buffer' [enabled by default]
+  extern volatile buffer;
+                  ^
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:63:3: warning: passing argument 1 of 'strlen' makes pointer from integer without a cast [enabled by default]
+   len = strlen(buffer);
+   ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:50:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\string.h:33:9: note: expected 'const char *' but argument is of type 'int'
+ size_t  _EXFUN(strlen,(const char *));
+         ^
+../Sources/main.c:66:19: error: subscripted value is neither array nor pointer nor vector
+    char c = buffer[i];
+                   ^
+../Sources/main.c:67:4: warning: passing argument 1 of 'Term1_SendChar' makes integer from pointer without a cast [enabled by default]
+    Term1_SendChar(&c);
+    ^
+In file included from ../Sources/Events.h:36:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code/Term1.h:113:6: note: expected 'char_t' but argument is of type 'char *'
+ void Term1_SendChar(char_t Val);
+      ^
+Sources/subdir.mk:21: recipe for target 'Sources/main.o' failed
+make: *** [Sources/main.o] Error 1
+20:42:14 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'send_string':
+../Sources/main.c:67:4: warning: passing argument 1 of 'Term1_SendChar' makes integer from pointer without a cast [enabled by default]
+    Term1_SendChar(&c);
+    ^
+In file included from ../Sources/Events.h:36:0,
+                 from ../Sources/main.c:32:
+C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code/Term1.h:113:6: note: expected 'char_t' but argument is of type 'char *'
+ void Term1_SendChar(char_t Val);
+      ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:42:58 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:43:19 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+20:44:11 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+20:50:27 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'send_string':
+../Sources/Events.c:83:4: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+    len = strlen(buffer);
+    ^
+../Sources/Events.c:83:10: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+    len = strlen(buffer);
+          ^
+../Sources/Events.c:83:4: warning: passing argument 1 of 'strlen' discards 'volatile' qualifier from pointer target type [enabled by default]
+    len = strlen(buffer);
+    ^
+../Sources/Events.c:83:4: note: expected 'const char *' but argument is of type 'volatile char *'
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:111:2: warning: passing argument 1 of 'sscanf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  sscanf(buffer, "red %i", &rBright);
+  ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:50:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'volatile char *'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:116:2: warning: passing argument 1 of 'sscanf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  sscanf(buffer, "green %i", &gBright);
+  ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:50:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'volatile char *'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:121:2: warning: passing argument 1 of 'sscanf' discards 'volatile' qualifier from pointer target type [enabled by default]
+  sscanf(buffer, "blue %i", &bBright);
+  ^
+In file included from c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:29:0,
+                 from ../Sources/main.c:50:
+c:\freescale\kds_v3\toolchain\arm-none-eabi\include\stdio.h:177:5: note: expected 'const char * restrict' but argument is of type 'volatile char *'
+ int _EXFUN(sscanf, (const char *__restrict, const char *__restrict, ...)
+     ^
+../Sources/main.c:127:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(">");
+  ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+./Sources/main.o: In function `main':
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:127: undefined reference to `send_string'
+collect2.exe: error: ld returned 1 exit status
+makefile:53: recipe for target 'Lab7-UserInterfacePWM.elf' failed
+make: *** [Lab7-UserInterfacePWM.elf] Error 1
+20:50:47 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+../Sources/Events.c: In function 'send_string':
+../Sources/Events.c:83:4: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+    len = strlen(buffer);
+    ^
+../Sources/Events.c:83:10: warning: incompatible implicit declaration of built-in function 'strlen' [enabled by default]
+    len = strlen(buffer);
+          ^
+Finished building: ../Sources/Events.c
+ 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+../Sources/main.c: In function 'main':
+../Sources/main.c:127:2: warning: implicit declaration of function 'send_string' [-Wimplicit-function-declaration]
+  send_string(">");
+  ^
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+./Sources/main.o: In function `main':
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:127: undefined reference to `send_string'
+collect2.exe: error: ld returned 1 exit status
+makefile:53: recipe for target 'Lab7-UserInterfacePWM.elf' failed
+make: *** [Lab7-UserInterfacePWM.elf] Error 1
+20:51:38 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/Events.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+Finished building: ../Sources/Events.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+./Sources/main.o: In function `main':
+C:\Users\Sienna\Documents\Stuff for Uni\CC2511\otherStudy\ExamStudy\Lab7-UserInterfacePWM\Debug/../Sources/main.c:127: undefined reference to `send_string'
+collect2.exe: error: ld returned 1 exit status
+makefile:53: recipe for target 'Lab7-UserInterfacePWM.elf' failed
+make: *** [Lab7-UserInterfacePWM.elf] Error 1
+20:52:00 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+Building file: ../Sources/main.c
+Invoking: Cross ARM C Compiler
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/PDD" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Static_Code/IO_Map" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Sources" -I"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+Finished building: ../Sources/main.c
+ 
+Building target: Lab7-UserInterfacePWM.elf
+Invoking: Cross ARM C++ Linker
+arm-none-eabi-g++ -mcpu=cortex-m4 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Sienna/Documents/Stuff for Uni/CC2511/otherStudy/ExamStudy/Lab7-UserInterfacePWM/Project_Settings/Linker_Files" -Wl,-Map,"Lab7-UserInterfacePWM.map" -specs=nano.specs -specs=nosys.specs -o "Lab7-UserInterfacePWM.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ASerialLdd1.o ./Generated_Code/Blue.o ./Generated_Code/Cpu.o ./Generated_Code/Green.o ./Generated_Code/Inhr1.o ./Generated_Code/PE_LDD.o ./Generated_Code/PwmLdd1.o ./Generated_Code/PwmLdd2.o ./Generated_Code/PwmLdd3.o ./Generated_Code/Red.o ./Generated_Code/TU1.o ./Generated_Code/Term1.o ./Generated_Code/Vectors.o   
+Finished building target: Lab7-UserInterfacePWM.elf
+ 
+20:52:36 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
+20:52:40 **** Incremental Build of configuration Debug for project Lab7-UserInterfacePWM ****
+make all 
+make: Nothing to be done for 'all'.
